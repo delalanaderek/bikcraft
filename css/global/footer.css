@@ -52,14 +52,13 @@
   .footer {
     grid-template-columns: 1fr 1fr;
   }
-}
 
-@media (max-width: 600px) {
-  .footer {
-    grid-template-columns: 1fr;
-    gap: 60px;
+  @media (max-width: 600px) {
+    .footer {
+      grid-template-columns: 1fr;
+      gap: 60px;
+    }
+    .footer-copy {
+      margin-top: 0px;
+    }
   }
-  .footer-copy {
-    margin-top: 0px;
-  }
-}
